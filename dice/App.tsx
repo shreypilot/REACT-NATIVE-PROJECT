@@ -5,8 +5,18 @@
  * @format
  */
 
-import {View, Text} from 'react-native';
-import React from 'react';
+import React, { useState } from 'react';
+
+import {
+
+  StatusBar,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+
+  View,
+} from 'react-native';
+
 
 export default function App() {
   return (
